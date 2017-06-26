@@ -1,0 +1,52 @@
+body{
+  margin: 0;
+}
+h1{
+  text-align: center;
+  margin: .5px;
+  padding: 30px;
+  background-color: teal;
+}
+nav{
+  padding: 0;
+  margin: 0;
+}
+ul{
+  display: flex;
+  padding: 2px;
+  margin: 0;
+  justify-content: space-between;
+}
+li{
+  text-align: center;
+  list-style: none;
+  background-color: aquamarine;
+  padding: 20px;
+  margin-left: .5px;
+  margin-right: .5px;
+  width: 25vw;
+  line-height: 40px;
+  height: 40px;
+}
+li:hover{
+  background-color: turquoise;
+  margin: 0px;
+}
+.footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 99.8vw;
+  margin: .1vw;
+  margin-left: .1vw;
+  margin-right: .2vw;
+  min-height: 100px;
+  height: 100%;
+  background-color: teal;
+}
+h4{
+  text-align: center;
+}
+.footer > h4 {
+  margin: 0;
+}

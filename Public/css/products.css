@@ -1,0 +1,21 @@
+h3{
+  text-align: center;
+}
+.contain{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+.product{
+  width: 400px;
+  height: 600px;
+  background-color: turquoise;
+  margin: 20px;
+}
+.item{
+  width: 380px;
+  height: 580px;
+  margin: 10px;
+  background-color: teal;
+}

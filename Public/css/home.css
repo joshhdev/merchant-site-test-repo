@@ -1,0 +1,19 @@
+.contain{
+  display: flex;
+  justify-content: space-around;
+}
+.sidebar{
+  width: 20vw;
+  min-height: 700px;
+  height: 100%;
+  background-color: midnightblue;
+}
+.main{
+  width: 79.8vw;
+  min-height: 700px;
+  height: 100%;
+  background-color: blue;
+}
+h4{
+  text-align: center;
+}

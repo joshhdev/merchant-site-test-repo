@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="/css/index.css">
+    <title>BUSINESS</title>
+  </head>
+  <body>
+    <h1>MY BUSINESS NAME</h1>
+    <nav>
+      <ul>
+        <% 4.times do |n|
+          content = ['Home','About','Contact','Products']
+        %>
+        <li align='left'>
+          <%= content[n] %>
+        </li>
+        <%end%>
+      </ul>
+    </nav>
+    <%= yield %>
+    <div class="footer">
+      <h4>FOOTER</h4>
+    </div>
+  </body>
+  <script src="/js/index.js" charset="text/javascript"></script>
+</html>
