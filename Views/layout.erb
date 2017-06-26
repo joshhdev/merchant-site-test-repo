@@ -5,7 +5,8 @@
     <title>BUSINESS</title>
   </head>
   <body>
-    <h1>MY BUSINESS NAME</h1>
+    <img class='mainlogo' src="/images/logo1.jpg" alt="">
+    <h1>BUY MY GUITARS DOT COM</h1>
     <nav>
       <ul>
         <% 4.times do |n|
@@ -19,7 +20,41 @@
     </nav>
     <%= yield %>
     <div class="footer">
-      <h4>FOOTER</h4>
+      <div class="leftfoot">
+        <div class="sitemap">
+          <p class='atags'>
+            <a href="#">HOME</a>
+            <a href="#">ABOUT</a>
+            <a href="#">CONTACT</a>
+            <a href="#">VIDEO DEMO</a>
+            <a href="#">NEWSLETTER</a>
+            <a href="#">ARTIST</a>
+            <a href="#">FORUM</a>
+            <a href="#">PRODUCTS</a>
+          </p>
+        </div>
+        <div class="copyright">
+          &copy; 2017 JOSH HARRIS CODE, SALT LAKE CITY UT
+        </div>
+      </div>
+      <div class="centerfoot">
+        <div class="footerlogo">
+          <img class='footerlogo'src="images/logo1.jpg" alt="">
+        </div>
+      </div>
+      <div class="rightfoot">
+        <div class="phone">
+          <p>(555)555-5555</p>
+        </div>
+        <div class="email">
+          <p>importantperson@importantemail.com</p>
+        </div>
+        <div class="contact">
+          <img src="/images/linkedin.png" alt="">
+          <img src="/images/twitter.png" alt="">
+          <img src="/images/github.svg" alt="">
+        </div>
+      </div>
     </div>
   </body>
   <script src="/js/index.js" charset="text/javascript"></script>

@@ -15,3 +15,8 @@ end
 get '/products' do
   erb :products
 end
+
+post '/forum' do
+  @important = params[:important]
+  @body = params[:body]
+end
